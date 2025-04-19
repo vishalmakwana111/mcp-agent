@@ -40,7 +40,7 @@ mcp-agent/
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/vishalmakwana111/mcp-agent.git
     cd mcp-agent
     ```
 2.  **Install Docker:** Ensure you have Docker installed and running. ([Install Docker](https://docs.docker.com/get-docker/))
