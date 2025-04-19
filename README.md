@@ -1,4 +1,4 @@
-# MCP Agent Conversation
+# MCP Agent Bot Conversation
 
 This project demonstrates a multi-agent conversation system where two language model agents (BotA and BotB) interact with each other, orchestrated by a driver script. The agents utilize a local LLM served by Ollama, and the communication framework potentially leverages the Model Context Protocol (MCP), although the current implementation uses direct interactions defined within the bot scripts.
 
@@ -12,7 +12,7 @@ This project demonstrates a multi-agent conversation system where two language m
 
 ## Technology Stack
 
-*   Python 3.10+
+*   Python 3.12+
 *   [Ollama](https://ollama.com/) (running `phi3` model by default)
 *   [Model Context Protocol (MCP) Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 *   FastAPI & Uvicorn (for bot servers)
